@@ -1,7 +1,19 @@
-#image {
-    width: 600px;
-}
-
 .hidden {
     display: none;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 600px
 }

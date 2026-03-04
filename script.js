@@ -27,6 +27,7 @@ function advanceScene() {
 
 function showEndMessage() {
     ENDMESSAGE.innerText = "There is nowhere left to go. You sit down among the roots and listen to Genesis' story.";
+    ENDMESSAGE.classList.remove("hidden");    
 }
 
 ADVANCE.addEventListener("click", advanceScene)
